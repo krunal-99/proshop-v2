@@ -24,6 +24,8 @@ const cartSlice = createSlice({
         state.cartItems = [...state.cartItems, item];
       }
 
+      // Krunal
+
       return updateCart(state, item);
     },
     removeFromCart: (state, action) => {
